@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#gridContainer {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  flex-wrap: wrap;
+  margin: 150px auto;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#result {
+  color: red;
+}
